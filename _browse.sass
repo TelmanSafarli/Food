@@ -24,9 +24,11 @@
         background-color: #3cc1d8   
         color: #ffff
     .box
-        padding: 30px
+        background-color: #ca7a7a
+        margin-bottom: 20px
+        padding: 20px
         .imgbox
-            width: 150px
+            width: 160px
             border-radius: 10px
         .textbox
             text-align: left
@@ -57,3 +59,39 @@
     .big
         padding: 17px 53px
         margin-top: 50px
+    @media ( max-width: 992px )
+        .box
+            padding: 30px 10px
+            .imgbox
+                width: 100px
+    @media ( max-width: 768px )
+        .menu
+            justify-content: center
+            display: flex
+            flex-wrap: wrap
+            .btn
+                margin-bottom: 10px
+                padding: 15px 106px
+        .box
+            flex-wrap: wrap
+            .imgbox
+                width: 280px
+                padding: 20px
+            .textbox
+                .minibox
+                    flex-direction: column
+                    h2
+                        margin-bottom: 10px
+    @media ( max-width: 480px )
+        .textbox
+            h4
+                font-size: 25px
+        .menu
+            flex-direction: column
+            .btn
+                margin: 0 0 20px 0
+                padding: 15px 145px
+        .box
+            .imgbox
+                width: 100%
+                padding: 20px
