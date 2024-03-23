@@ -322,6 +322,7 @@ header nav .home-color {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
   }
   #browse .menu .btn {
     margin-bottom: 10px;
