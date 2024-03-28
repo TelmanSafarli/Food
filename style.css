@@ -100,14 +100,15 @@ header .menu .buttons .shop {
 }
 @media (max-width: 992px) {
   #beautiful .box {
-    margin: 0;
+    width: 480px;
+    margin: auto;
     text-align: center;
     position: relative;
   }
   #beautiful .box .imgbox {
     width: auto;
     position: absolute;
-    left: 290px;
+    left: 190px;
   }
   #beautiful .box h4 {
     margin-top: 55px;
@@ -149,7 +150,7 @@ header .menu .buttons .shop {
   background-color: #f1f8f9;
 }
 #thehome .textbox {
-  width: 400px;
+  width: 370px;
   margin-bottom: 60px;
 }
 #thehome .textbox h1 {
@@ -160,7 +161,7 @@ header .menu .buttons .shop {
 #thehome .textbox h5 {
   color: #676f8b;
   font-size: 20px;
-  margin: 25px 75px 50px 0;
+  margin: 25px 0 50px 0;
   line-height: 1.3;
 }
 #thehome .textbox .btn {
@@ -176,28 +177,20 @@ header .menu .buttons .shop {
 }
 @media (max-width: 992px) {
   #thehome .textbox {
-    width: 100%;
+    margin: auto;
     text-align: center;
   }
-  #thehome .textbox h5 {
-    margin-left: 80px;
+  #thehome .textbox .btn {
+    margin-bottom: 60px;
   }
   #thehome .imgbox {
     width: auto;
-  }
-}
-@media (max-width: 768px) {
-  #thehome .textbox h1 {
-    margin-left: 0;
-  }
-  #thehome .textbox h1, #thehome .textbox h5 {
-    width: auto;
-  }
-  #thehome .imgbox {
-    margin: 0 80px 0 0;
   }
 }
 @media (max-width: 430px) {
+  #thehome .textbox {
+    width: 250px;
+  }
   #thehome .textbox h1 {
     font-size: 45px;
   }
@@ -409,6 +402,16 @@ header .menu .buttons .shop {
     text-align: center;
     width: auto;
   }
+  #order .textbox h1, #order .textbox h5 {
+    width: 68%;
+    margin-left: 90px;
+  }
+}
+@media (max-width: 768px) {
+  #order .textbox h1, #order .textbox h5 {
+    margin: 20px 0 50px 0;
+    width: auto;
+  }
 }
 @media (max-width: 440px) {
   #order .textbox {
@@ -456,8 +459,15 @@ header .menu .buttons .shop {
     text-align: center;
     width: auto;
   }
-  #callour .imgbox {
-    margin-left: 40px;
+  #callour .textbox h1, #callour .textbox h5 {
+    width: 68%;
+    margin-left: 90px;
+  }
+}
+@media (max-width: 768px) {
+  #callour .textbox h1, #callour .textbox h5 {
+    margin: 20px 0 50px 0;
+    width: auto;
   }
 }
 @media (max-width: 440px) {
