@@ -101,7 +101,7 @@ header .menu .buttons .shop {
 }
 @media (max-width: 992px) {
   #beautiful .box {
-    width: 480px;
+    width: 620px;
     margin: auto;
     text-align: center;
     position: relative;
@@ -109,13 +109,13 @@ header .menu .buttons .shop {
   #beautiful .box .imgbox {
     width: auto;
     position: absolute;
-    left: 190px;
+    left: 250px;
   }
   #beautiful .box h4 {
     margin-top: 55px;
   }
   #beautiful .imgbox {
-    margin-right: 80px;
+    margin-left: 60px;
   }
 }
 @media (max-width: 768px) {
@@ -123,7 +123,7 @@ header .menu .buttons .shop {
     font-size: 25px;
   }
   #beautiful .box .imgbox {
-    left: 190px;
+    left: 200px;
   }
   #beautiful .box .btn {
     font-size: 25px;
@@ -131,7 +131,7 @@ header .menu .buttons .shop {
 }
 @media (max-width: 430px) {
   #beautiful .box {
-    margin: 0 50px 70px 70px;
+    margin: 0 50px 0 70px;
   }
   #beautiful .box h1 {
     font-size: 45px;
@@ -186,6 +186,7 @@ header .menu .buttons .shop {
   }
   #thehome .imgbox {
     width: auto;
+    margin: auto;
   }
 }
 @media (max-width: 430px) {
@@ -486,7 +487,8 @@ header .menu .buttons .shop {
     padding: 17px 53px;
   }
   #callour .imgbox {
-    margin-left: 0;
+    margin: auto;
+    width: auto;
   }
 }
 
